@@ -545,11 +545,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - **CryptoCompare**: Free API for price data
 - **Reddit/Telegram/YouTube**: Platform APIs for data access
 
-## 📧 Contact
-
-For questions or collaboration:
-- GitHub Issues: [Project Issues](https://github.com/yourusername/crypto-sentiment-analysis/issues)
-- Email: your.email@example.com
 
 ## 📚 References
 
