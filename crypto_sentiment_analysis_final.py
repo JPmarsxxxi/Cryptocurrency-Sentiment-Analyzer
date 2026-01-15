@@ -361,8 +361,8 @@ prices_df = price_collector.get_historical_prices('BTC', limit=2000)
 # 2. Collect Reddit data (YOUR WORKING CREDENTIALS)
 print("\n[2/6] Collecting Reddit data...")
 reddit_collector = RedditDataCollector(
-    client_id='o86aLuXSP_Fk2UdaYL3kng',
-    client_secret='PEgDbGk9i3HzivSxkE108HAp-rdZyA',
+    client_id='',
+    client_secret='',
     user_agent='crypto_sentiment_v1'
 )
 reddit_df = reddit_collector.collect_posts(limit=3000)
@@ -370,9 +370,9 @@ reddit_df = reddit_collector.collect_posts(limit=3000)
 # 3. Collect Telegram data (YOUR WORKING CREDENTIALS)
 print("\n[3/6] Collecting Telegram data...")
 telegram_collector = TelegramDataCollector(
-    api_id=37586931,
-    api_hash='881059759f712b566b02619505bb77d3',
-    phone='+447756963565'
+    api_id=,
+    api_hash='',
+    phone=''
 )
 telegram_df = telegram_collector.collect_messages(limit=1500)
 
